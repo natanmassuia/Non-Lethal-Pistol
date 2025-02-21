@@ -12,6 +12,27 @@ Este recurso adiciona uma pistola não letal ao jogo que causa dano zero mas tem
 - Carregador com 12 munições
 - Compatível com QBCore e QBox
 
+## Instalação
+
+### Arquivos Necessários
+Certifique-se que todos estes arquivos estejam presentes na pasta do resource:
+nonlethalpistol/
+├── fxmanifest.lua
+├── cl_weaponNames.lua
+├── meta/
+│ └── nonlethalpistol/
+│ ├── weapons.meta
+│ ├── weaponarchetypes.meta
+│ ├── weaponanimations.meta
+│ ├── pedpersonality.meta
+│ └── weaponcomponents.meta
+└── stream/
+├── w_pi_nlpistol.ydr
+├── w_pi_nlpistol.ytd
+├── w_pi_nlpistol_hi.ydr
+├── w_pi_nlpistol_mag1.ydr
+└── w_pi_nlpistol_mag1.ytd
+
 ### Instalação no QBCore
 
 1. Adicione o item em "qb-core/shared/items.lua":

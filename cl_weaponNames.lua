@@ -1,0 +1,1 @@
+AddTextEntry("WEAPON_NLPISTOL", "Pistola Não Letal")
